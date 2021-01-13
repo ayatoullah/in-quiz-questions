@@ -173,7 +173,7 @@
 
 #### Q18. What is the correct markup for `alt` attribute of an image?
 
-- [ ]
+- [x]
 
 ```html
 <img src="cubism.jpg" alt="Version of ""Whistler's Mother"" in cubist style">
@@ -185,7 +185,7 @@
 <img src="cubism.jpg" alt="Version of "Whistler's Mother" in cubist style">
 ```
 
-- [x]
+- []
 
 ```html
 <img src="cubism.jpg" alt='Version of "Whistler\'s Mother" in cubist style'>
