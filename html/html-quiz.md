@@ -458,7 +458,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
-- [x]
+- []
 
 ```html
 <a id="top"></a>
@@ -466,7 +466,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <a href="#top">back to top</a>
 ```
 
-- [ ]
+- [x]
 
 ```html
 <a name="top"></a>
