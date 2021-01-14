@@ -1053,3 +1053,68 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] Inline elements can be nested inside block elements.
 - [x] Block elements can be nested inside inline elements.
 
+#### Q62. The below code contains some error.which choice correct all of the errors?
+      <table>
+        <tr>Cell1</tr>
+        <td>Cell2</td>
+        <caption> A table</caption>
+      </table>
+- [] <table>
+        <tr>
+          <td>Cell1</td>
+          <td>Cell2</td>
+        </tr>
+        <caption> A table</caption>
+      </table>
+      
+- [x] <table>
+        <caption> A table</caption>
+        <tr>
+          <td>Cell1</td>
+          <td>Cell2</td>
+        </tr>
+        
+      </table>
+
+- [] <table>
+        <caption> A table</caption>
+        <td>
+          <tr>Cell1</tr>
+          <tr>Cell2</tr>
+        </td>
+      </table>
+      
+- [] <caption> A table</caption>
+     <table>
+        <tr>
+          <td>Cell1</td>
+          <td>Cell2</td>
+        </tr>
+     </table>
+#### Q63 what is the purpose of class attribute?
+- [-] Classes allow CSS to select elements on the page.You may list as many class names within the class attribute as you wish seperated by spaces.
+- [x] Classes allow CSS and JavaScript to select elements on the page.You may list as many class names within the class attribute as you wish seperated by spaces.
+- [-] Classes allow CSS to select elements on the page.You may list only one class name per class attribute.
+- [-] Classes allow CSS and JavaScript to select elements on the page.You may list only one class name per class attribute.
+#### Q64 what is the best way to code three choices with a form so that the user can select only one item?
+- [-] <p>Make a choice </p>
+      <input id="choices" name="example">
+      <datalist value="choices">
+        <option value="Choice1">
+        <option value="Choice2">
+        <option value="Choice3">
+      </datalist>
+- [-] <fieldset>
+  <label for="choice-1">Choice-1</label>
+  <input id="choice-2" name="options" type="radio">
+- [-] <label for="example">Make a choice:</label>
+        <datalist id="example>
+          <option value="Choice1">
+          <option value="Choice2">
+          <option value="Choice3">
+        </datalist>
+- [-] <fieldset>
+                                 
+      </fieldset>
+  
+          
