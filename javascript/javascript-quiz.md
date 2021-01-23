@@ -417,8 +417,8 @@ f2();
 
 #### Q41. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
-- [ ] You are calling a method named reduce on an object that's declared but has no value.
-- [x] You are calling a method named reduce on an object that does not exist.
+- [x] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that's has a null value.
 
