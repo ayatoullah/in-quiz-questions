@@ -644,27 +644,15 @@ new logThis();
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. What will be logged to the console?
 
-```javascript
-var a = ['dog', 'cat', 'hen'];
-a[100] = 'fox';
-console.log(a.length);
-```
-
-- [x] 101
-- [ ] 4
-- [ ] 100
-- [ ] 3
-
-#### Q64. Which method do you use to attach one DOM node to another?
+#### Q63. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-#### Q65. Which statement is used to skip iteration of the loop?
+#### Q64. Which statement is used to skip iteration of the loop?
 
 - [ ] break
 - [ ] pass
