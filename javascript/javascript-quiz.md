@@ -428,8 +428,8 @@ f2();
 
 - [ ] 3
 - [ ] 2
-- [x] 0
-- [ ] 1
+- [ ] 0
+- [x] 1
 
 #### Q43. Which of the following is not a unary operator?
 
