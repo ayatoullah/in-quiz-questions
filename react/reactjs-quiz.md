@@ -516,7 +516,8 @@ useEffect(() => {
 <React.Fragment>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-</React.Fragment>```
+</React.Fragment>
+```
 
 - [ ] `<...>
 	<h1>our staff</h1>
@@ -545,10 +546,10 @@ class Ticker extends React component{
 	render(){
 	return <h1>{}</h1>
 	}
-}```
-
-- [x] this.state.count
-- [ ] count
-- [ ] state.count
-- [ ] state
+}
+```
+- [x] `this.state.count`
+- [ ] `count`
+- [ ] `state.count`
+- [ ] `state`
 
