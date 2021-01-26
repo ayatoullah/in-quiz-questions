@@ -519,22 +519,33 @@ useEffect(() => {
 </React.Fragment>
 ```
 
-- [ ] `<...>
+- [ ] `
+```javascript<...>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-      </...>`
-- [ ] `<//>
+      </...>
+      ```
+- [ ] `
+```javascript
+<//>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
       <///>`
-- [x] `<>
+- [x] `
+```javascript<>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-      </>`
-- [ ] `<Frag>
+      </>
+      ```
+      `
+- [ ] `
+```javascript
+	<Frag>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-      </Frag>`
+      </Frag>
+      ```
+      `
     
 #### Q53 If you wanted to display the count state value in the component. What do you need to add in the curly braces in h1?
 ```javascript
