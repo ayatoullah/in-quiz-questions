@@ -465,10 +465,12 @@ Currently, `handleClick` is being called instead of passed as a reference. How d
 <button onClick={this.handleClick()}>Click this</button>
 ```
 
-- [x] `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`
+- [ ] `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
-- [ ] `<button onClick={this.handleClick}>Click this</button>` 
+- [x] `<button onClick={this.handleClick}>Click this</button>` 
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
+explantion ans no 3 function will be like =>let handleClick=()=>{... } 0R button onClick={this.handleClick.bind(this)}>Click this</button> && function will be like ~ ~ ~ handleClick(){ .... }
+two solution to bind this or to use arrow function 
 
 #### Q48. (Not sure answer)
 Which answer best describes a function component?
