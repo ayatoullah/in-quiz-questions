@@ -193,9 +193,13 @@ const element = <p>{message}</p>;
 #### 19. When do you use useLayoutEffect?
 
 - [ ] to optimize for all devices
-- [ ] to complete the update
+- [x] to complete the update
 - [ ] to change the layout of the screen
-- [x] when you need the browser to paint before the effect runs 
+- [ ] when you need the browser to paint before the effect runs 
+
+explanation : as per react docs => useLayoutEffect
+The signature is identical to useEffect, but it fires synchronously after all DOM mutations. Use this to read layout from the DOM and synchronously re-render. Updates scheduled inside useLayoutEffect will be flushed synchronously, before the browser has a chance to paint.
+
 
 #### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
@@ -582,5 +586,21 @@ const greetings=isLoggedIn? <Hello/> :null;
 - [ ] `when isLoggedIn is true`
 - [ ] `when a user logs in`
 - [ ] `when the HelloFunction is called`
+#### Q55 In the following code block, what type is orderNumber?
+```javascript
+ReactDom.render(
+<Message orederNumber="16">
+document.getElementById(root);
+)
+```
+- [x] string
+- [ ] number
+- [ ] object
+- [ ] boolean
+#### Q56 You have added a style properity to the h1 but there is unexpected token error when runs.How do you fix it?
+```javascript
+const element=<h1 style={backgroundColor:"blue"}></h1>
+- [ ] 
+
 
 
