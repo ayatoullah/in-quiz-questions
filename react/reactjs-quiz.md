@@ -519,12 +519,14 @@ useEffect(() => {
 </React.Fragment>
 ```
 
-- [ ] ` ```javascript
+- [ ] ` 
+	 ```javascript
 		<...>
 			<h1>our staff</h1>
 			<p>Our staff is available from 9-5</p>
 		</...>
-	``` `
+	 ```
+      `
       
 - [ ]
 `
@@ -571,4 +573,14 @@ class Ticker extends React component{
 - [ ] `count`
 - [ ] `state.count`
 - [ ] `state`
+
+#### Q54 As per the following code when will be Hello component displayed?
+```javascript
+const greetings=isLoggedIn? <Hello/> :null;
+```
+- [x] `never`
+- [ ] `when isLoggedIn is true`
+- [ ] `when a user logs in`
+- [ ] `when the HelloFunction is called`
+
 
