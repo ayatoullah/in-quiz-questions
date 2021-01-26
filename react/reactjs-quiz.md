@@ -486,7 +486,7 @@ What is the difference between the click behaviors of these two buttons(assuming
 
 ```javascript
 
-A. <button onClick=fthis.handleClickl>Click Me</button>
+A. <button onClick={this.handleClick}>Click Me</button>
 B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 
 ```
