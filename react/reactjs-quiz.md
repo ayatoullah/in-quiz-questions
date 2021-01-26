@@ -510,3 +510,26 @@ useEffect(() => {
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
 - [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
+
+#### Q52. React does not render two sibling elements until they are wrapped in a fragment .Below is one way to render a fragment.What is the short handed for this?
+<React.Fragment>
+<h1>our staff</h1>
+<p>Our staff is available from 9-5</p>
+</React.Fragment>
+- [] <...>
+	<h1>our staff</h1>
+	<p>Our staff is available from 9-5</p>
+     </...>
+-[] <//>
+	<h1>our staff</h1>
+	<p>Our staff is available from 9-5</p>
+    <///>
+-[x] <>
+	<h1>our staff</h1>
+	<p>Our staff is available from 9-5</p>
+     </>
+-[] <Frag>
+	<h1>our staff</h1>
+	<p>Our staff is available from 9-5</p>
+    </Frag>
+
