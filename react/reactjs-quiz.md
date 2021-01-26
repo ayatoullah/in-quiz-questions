@@ -513,25 +513,27 @@ useEffect(() => {
 
 #### Q52. React does not render two sibling elements until they are wrapped in a fragment .Below is one way to render a fragment.What is the short handed for this?
 <React.Fragment>
-<h1>our staff</h1>
-<p>Our staff is available from 9-5</p>
+	<h1>our staff</h1>
+	<p>Our staff is available from 9-5</p>
 </React.Fragment>
-- [] <...>
+
+- [ ] <...>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-     </...>
--[] <//>
+      </...>
+- [ ] <//>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-    <///>
--[x] <>
+      <///>
+- [x] <>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-     </>
--[] <Frag>
+      </>
+- [ ] <Frag>
 	<h1>our staff</h1>
 	<p>Our staff is available from 9-5</p>
-    </Frag>
+      </Frag>
+    
 #### Q53 If you wanted to display the count state value in the component. What do you need to add in the curly braces in h1?
 class Ticker extends React component{
 	constructor(props){
@@ -542,8 +544,9 @@ class Ticker extends React component{
 	return <h1>{}</h1>
 	}
 }
-- [ ] this.state.count
-- [x] count
+
+- [x] this.state.count
+- [ ] count
 - [ ] state.count
 - [ ] state
 
