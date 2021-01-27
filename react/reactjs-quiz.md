@@ -622,5 +622,39 @@ Button extends React.Component{
 - [x] `this.handleClick=this.handleClick.bind(this)`
 - [ ] `this.handleClick.bind(this)`
 
+#### Q58 which tool is not part of createReactApp ?
+- [ ] `webPack`
+- [ ] `react`
+- [ ] `JQuery`
+- [ ] `ReactDom`
+
+#### Q59 How would you add to this code from ReactRouter to display component about?
+```javascript
+<Route path=":/id">
+```
+- [ ] 
+```javascript
+<Route path=":/id">
+	<about/>
+</Route>
+```
+- [ ] ``
+```javascript
+<Route >
+	<about path=":/id"/>
+</Route>
+```
+- [ ] 
+
+```javascript
+<Route path=":/id" about={component}/>
+```
+
+
+- [ ] ``
+```javascript
+<Route path=":/id" route={about}/>
+```
+
 
 
