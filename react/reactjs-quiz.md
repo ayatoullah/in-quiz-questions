@@ -218,9 +218,10 @@ B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
 ```
 
 - [ ] Button A will not have access to the event object on click of the button.
-- [x] Button B will not fire the handler this.handleClick successfully. 
+- [ ] Button B will not fire the handler this.handleClick successfully. 
 - [ ] Button A will not fire the handler this.handleClick successfully.
-- [ ] There is no difference
+- [x] There is no difference
+Explanation : if you try handleClick(event){console.log(event)} with button A you will get access and 2 utton will fire correctly so there is no difference
 
 #### 21. How do you destructure the properties that are sent to the Dish component?
 
