@@ -197,6 +197,8 @@ check this https://reactjs.org/docs/introducing-jsx.html
 - [x] `React.lazy` 
 - [ ] `React.fallback`
 
+Explanation check this => https://reactjs.org/docs/code-splitting.html
+
 #### 19. When do you use useLayoutEffect?
 
 - [ ] to optimize for all devices
