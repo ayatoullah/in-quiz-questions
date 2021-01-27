@@ -638,7 +638,7 @@ Button extends React.Component{
 	<about/>
 </Route>
 ```
-- [ ] ``
+- [ ] 
 ```javascript
 <Route >
 	<about path=":/id"/>
@@ -651,10 +651,17 @@ Button extends React.Component{
 ```
 
 
-- [ ] ``
+- [ ] 
 ```javascript
 <Route path=":/id" route={about}/>
 ```
+
+#### Q60 what is the browser extention called that developers usr to debug applications?
+
+- [ ] React developers Tool
+- [ ] React Tooling Addon
+- [ ] React Code Watch
+- [ ] React Debug
 
 
 
