@@ -183,6 +183,9 @@ const element = <p>{message}</p>;
 - [x] a JS expression 
 - [ ] a JSX wrapper
 
+Explanation : as per react docs =>You can put any valid (JavaScript expression) inside the curly braces in JSX. For example, 2 + 2, user.firstName, or formatName(user) are all valid JavaScript expressions.
+check this https://reactjs.org/docs/introducing-jsx.html
+
 #### 18. What can you use to handle code splitting?
 
 - [ ] `React.memo`
