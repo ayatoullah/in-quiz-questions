@@ -104,6 +104,8 @@ console.log(animal);
 - [ ] when you want to improve performance
 - [ ] when you want to break your production app
 
+explanation check this => https://dev.to/spukas/3-reasons-to-usereducer-over-usestate-43ad
+
 #### 12. Which props from the props object is available to the component with the following syntax?
 
 ```javascript
