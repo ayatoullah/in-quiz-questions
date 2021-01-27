@@ -173,6 +173,8 @@ function MyComponent() {
 - [x] fallback 
 - [ ] spinner
 
+explanation check this https://reactjs.org/docs/concurrent-mode-suspense.html
+
 #### 17. What do you call the message wrapped in curly braces below?
 
 ```javascript
