@@ -446,9 +446,9 @@ function MyComponent(props) {
 }
 ```
 
-- [ ] `useEffect(() => { setDone(true); });`
+- [x] `useEffect(() => { setDone(true); });`
 - [ ] `useEffect(() => { setDone(true); }, []);`
-- [x] `useEffect(() => { setDone(true); }, [setDone]);` 
+- [ ] `useEffect(() => { setDone(true); }, [setDone]);` 
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
 #### Q46.
