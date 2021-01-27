@@ -670,5 +670,14 @@ Button extends React.Component{
 - [ ] a
 - [ ] Page
 
+#### Q62 what will happen when this useEffectHock is excuted , assuming name is not equal John?
+```javascript
+useEffect(()=>{setState('John')},[name])
+```
+- [ ] It will excuete code inside the function , but only after waiting to ensure that no other component is acessing name variable
+- [ ] It will cause an error immediately 
+- [x] It will update value of name once and not run again until name is changed from outside
+- [ ] It will cause an infinite loop
+
 
 
