@@ -459,11 +459,12 @@ class Huggable extends React.Component{
 }
 ```
 
-- [x] `<button onClick={() => this.hug(name)>Hug Button</button>`
+- [ ] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e,name)}>Hug Button</button>` 
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
-explaination ==> hug takes one parameter so first choice is the correct
+- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
+
+explaination ==> first one is wrong it will be true if it were () => this.hug(name) so the last is true it will take first parameter as id
 #### Q47.
 
 Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
