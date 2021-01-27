@@ -332,6 +332,9 @@ const Heading = () => {
 - [ ] recursive functions
 - [ ] higher-order functions
 
+explanation as per react docs : All React components must act like pure functions with respect to their props.
+check this => https://reactjs.org/docs/components-and-props.html#:~:text=Such%20functions%20are%20called%20%E2%80%9Cpure,result%20for%20the%20same%20inputs.&text=React%20is%20pretty%20flexible%20but,with%20respect%20to%20their%20props.
+
 #### Q35. Why might you use a ref?
 
 - [x] to directly access the DOM node 
