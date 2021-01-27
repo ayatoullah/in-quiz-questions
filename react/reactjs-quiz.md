@@ -268,9 +268,11 @@ function Dish(props) {
 #### 27. When using webpack, why would you need to use a loader?
 
 - [ ] to put together physical file folders
-- [ ] to process files
-- [x] to load external data 
+- [x] to preprocess files
+- [ ] to load external data 
 - [ ] to load the website into everyone's phone
+
+explanation check https://webpack.js.org/concepts/loaders/
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
