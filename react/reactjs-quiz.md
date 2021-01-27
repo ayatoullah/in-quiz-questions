@@ -645,14 +645,14 @@ Button extends React.Component{
 #### Q58 which tool is not part of createReactApp ?
 - [ ] `webPack`
 - [ ] `react`
-- [ ] `JQuery`
+- [x] `JQuery`
 - [ ] `ReactDom`
 
 #### Q59 How would you add to this code from ReactRouter to display component about?
 ```javascript
 <Route path=":/id">
 ```
-- [ ] 
+- [x] 
 ```javascript
 <Route path=":/id">
 	<about/>
@@ -678,7 +678,7 @@ Button extends React.Component{
 
 #### Q60 what is the browser extention called that developers usr to debug applications?
 
-- [ ] React developers Tool
+- [x] React developers Tool
 - [ ] React Tooling Addon
 - [ ] React Code Watch
 - [ ] React Debug
