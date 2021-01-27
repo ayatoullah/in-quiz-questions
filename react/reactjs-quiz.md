@@ -617,6 +617,8 @@ document.getElementById(root);
 - [ ] number
 - [ ] object
 - [ ] boolean
+
+explanation : go to message component and if class component you can type in constructor (console.log(typeof(props.orderNumber)) or function component before return
 #### Q56 You have added a style properity to the h1 but there is unexpected token error when runs.How do you fix it?
 ```javascript
 const element=<h1 style={backgroundColor:"blue"}></h1>
