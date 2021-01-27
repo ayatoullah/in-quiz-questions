@@ -344,10 +344,12 @@ handleChange(e) {
 }
 ```
 
-- [ ] a computer property name
+- [x] a computed property name
 - [ ] a set value
-- [x] a dynamic key 
+- [ ] a dynamic key 
 - [ ] a JSX code string
+
+check http://es6-features.org/#ComputedPropertyNames
 
 #### Q37. What is the name of this component?
 
