@@ -602,7 +602,25 @@ document.getElementById(root);
 #### Q56 You have added a style properity to the h1 but there is unexpected token error when runs.How do you fix it?
 ```javascript
 const element=<h1 style={backgroundColor:"blue"}></h1>
-- [ ] 
+```
+- [ ] ``
+
+
+#### Q57 you have created a new method in class component called handleClick , but it doesnot work .which code is missing?
+```javascript
+Button extends React.Component{
+	constructor(props){
+		super(props);
+		//Missing code
+	}
+	handleClick(){...}
+}
+
+```
+- [ ] `this.handleClick.bind()`
+- [ ] `props.bind(handleClick)`
+- [x] `this.handleClick=this.handleClick.bind(this)`
+- [ ] `this.handleClick.bind(this)`
 
 
 
