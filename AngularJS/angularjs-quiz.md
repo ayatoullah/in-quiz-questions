@@ -321,7 +321,33 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 #### Q25 What is the difference between paramMap and queryParamMap on the ActivatedRouteClass?
 - [ ] `paramName is the legacy name from Angular3.The new name is queryParamName.`
-- [ ] `The paramMap is an object literal of the parameters in a route's url path.The query`
+- [ ] `The paramMap is an object literal of the parameters in a route's url path.The queryParamMap is an obervable of those same parameters.`
+- [ ] `Both are obervables containing values from the requested route URL string.The paramMap contains the parameter`
+- [ ] `The paramMap is an observable that contains the parameter values that are part of a route's url path.The query param map is a method that takes in array of keys and is      used to find specific parameters in the paramMap`
+
+#### Q26 What is the difference if any, of the resulting code logic based on these two provider configuration?
+````javascript
+[{provide:FormattedLogger, useClass:Logger }]
+[{provide:FormattedLogger, useExisting:Logger }]
+````
+
+- [ ] `They are the same.Both will result in a new instance of Logger that is bound tothe Formatted Logger Token.`
+- [ ] `Both of them are wrong.A strong type can not be used for useClass or useExisting.`
+- [ ] `THey are the same.Both will result in the FormattedLogger token being an alias for the instance of Logger`
+- [ ] `The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token.The useExisting syntax refers to already          existing object instance declared as Logger`
+
+#### Q27 What does the injectable decorator do in this service class?
+````javascript
+@Injectable({
+    providedIn:'root'
+    })
+export class DataService
+
+````
+- [ ] `It registers a provider for the service that is available only on the root module `
+- [ ] `It makes it so the service can be injected only in the bootstraped component for the application`
+- [ ] `It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.`
+- [ ] `It registers a provider for the service in the root application injector making a single instance of it available throughout the application`
 
 
 
