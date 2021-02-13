@@ -197,3 +197,17 @@
     - [] <button (click)="submit(userForm.value)"
             *ngIf="userForm.valid">
             Save</button>
+    #### Q16 What is the purpose of contentchildren decorator in the following component class?
+ ```javascript
+    @Component({
+  .....
+  template : '<ng-content></ng-content>'
+})
+export class TabsListComponent{
+  @ContentChildren(TapComponent) tabs;
+}
+```
+- [ ] `It provides access within component class to any TabComponent components that were content projected into the <ng-content> for this component.`
+- [ ] `It restricts the allowed elements`
+- [ ] `It create TabComponent components in TabListComponent when TabListComponent is instantiated `
+- [ ] `If any Tabs Component element are added to TabListCpmponent template, they will get put into the <ng-content> element at runtime`    
