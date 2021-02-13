@@ -115,10 +115,10 @@
 
 #### Q9. What are the two component decorator metadata properties used to set up CSS styles for a component? What are the two component decorator metadata properties used to set up CSS styles for a component?
 
-    - [] viewEncapsulation and viewEncapsulationFilesnull and null
-    - [] There is only one and it is the property named css. There is only one and it is the property named null.
-    - [] css and cssUrlnull and null
-    - [] styles and styleUrlsnull and null
+    - [] `viewEncapsulation and viewEncapsulationFiles`
+    - [] `There is only one and it is the property named css. There is only one and it is the property named css.`
+    - [] `css and cssUrl`
+    - [] `styles and styleUrls`
 
 #### Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
 
@@ -131,24 +131,24 @@
     title = 'User Data';
     }
 ```
-    - [] {{ 'title' }}null
-    - [] {{ title }}null
-    - [] [title]null
-    - [] A class field cannot be displayed in a template via the template syntax.
+    - [] `{{ 'title' }}null`
+    - [] `{{ title }}null`
+    - [] `[title]null`
+    - [] `A class field cannot be displayed in a template via the template syntax.`
 
 #### Q11. What is the purpose of the valueChanges method on a FormControl? What is the purpose of the null method on a null?
 
-    - [] It is used to configure what values are allowed for the control. It is used to configure what values are allowed for the control.
-    - [] It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time. It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time.
-    - [] It returns a Boolean based on if the value of the control is different from the value with which it was initialized. It returns a Boolean based on if the value of the control is different from the value with which it was initialized.
-    - [] It is an observable that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time. It is an null that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time.
+    - [] `It is used to configure what values are allowed for the control. It is used to configure what values are allowed for the control.`
+    - [] `It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time. It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time.`
+    - [] `It returns a Boolean based on if the value of the control is different from the value with which it was initialized. It returns a Boolean based on if the value of the control is different from the value with which it was initialized.`
+    - [] `It is an observable that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time. It is an null that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time.`
 
 #### Q12. What directive is used to link an <a> tag to routing?
 
-    - [] routeTo
-    - [] routerLink <---Correct
-    - [] routePathn
-    - [] appLink
+    - [] `routeTo`
+    - [x] `routerLink
+    - [] `routePathn`
+    - [] `appLink`
 
 #### Q13. What is the Output decorator used for in this component class?
 
@@ -162,10 +162,10 @@
     . . .
     }
 ```
-    - [] It makes the itemTotalChanged class field public. It makes the null class field public.
-    - [] It provides a way to bind values to the itemTotalChanged class field, like so: <app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>. It provides a way to bind values to the null class field, like so: null.
-    - [] It provides a way to bind events to the itemTotalChanged class field, like so: <app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>. It provides a way to bind events to the null class field, like so: null.
-    - [] It is simply a way to put a comment in front of a class field for documentation.
+    - [] `It makes the itemTotalChanged class field public. It makes the null class field public.`
+    - [] `It provides a way to bind values to the itemTotalChanged class field, like so: <app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>. It provides a way to bind values to the null class field, like so: null.`
+    - [] `It provides a way to bind events to the itemTotalChanged class field, like so: <app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>. It provides a way to bind events to the null class field, like so: null.`
+    - [] `It is simply a way to put a comment in front of a class field for documentation.`
 
 #### Q14. What is the difference between these two markup examples for conditionally handling display?
 
@@ -173,10 +173,10 @@
     <div \*ngIf="isVisible">Active</div>
     <div [hidden]="!isVisible">Active</div>
 ```
-    - [] The ngIf is shorthand for the other example. When Angular processes that directive, it writes a div element to the DOM with the hidden property. The null is shorthand for the other example. When Angular processes that directive, it writes a null element to the DOM with the null property.
-    - [] They are fundamentally the same. They are fundamentally the same.
-    - [] The ngIf directive does not render the div in the DOM if the expression is false. The hidden property usage hides the div content in the browser viewport, but the div is still in the in the DOM. The null directive does not render the null in the DOM if the expression is null. The null property usage hides the null content in the browser viewport, but the null is still in the in the DOM.
-    - [] The ngIf is valid, but the use of the hidden property is wrong and will throw an error.
+    - [] `The ngIf is shorthand for the other example. When Angular processes that directive, it writes a div element to the DOM with the hidden property. The null is shorthand for the other example. When Angular processes that directive, it writes a null element to the DOM with the null property.`
+    - [] `They are fundamentally the same. They are fundamentally the same.`
+    - [] `The ngIf directive does not render the div in the DOM if the expression is false. The hidden property usage hides the div content in the browser viewport, but the div is still in the in the DOM. The null directive does not render the null in the DOM if the expression is null. The null property usage hides the null content in the browser viewport, but the null is still in the in the DOM.`
+    - [] `The ngIf is valid, but the use of the hidden property is wrong and will throw an error.`
 
 #### Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
 
@@ -187,32 +187,145 @@
     <button (click)="submit(userForm.value)">Save</button>
     </form>
 ```
-    - [] <button (click)="submit(userForm.value)"
+    - [] `<button (click)="submit(userForm.value)"
             disable="userForm.invalid">
-            Save</button>
+            Save</button>`
 
-    - [] <button (click)="submit(userForm.value)"
+    - [] `<button (click)="submit(userForm.value)"
             [disabled]="userForm.invalid">
-            Save</button>
+            Save</button>`
 
-    - [] <button (click)="submit(userForm.value)"
+    - [] `<button (click)="submit(userForm.value)"
             [ngForm.disabled]="userForm.valid">
-            Save</button>
+            Save</button>`
 
-    - [] <button (click)="submit(userForm.value)"
+    - [] `<button (click)="submit(userForm.value)"
             *ngIf="userForm.valid">
-            Save</button>
-    #### Q16 What is the purpose of contentchildren decorator in the following component class?
- ```javascript
-    @Component({
-  .....
-  template : '<ng-content></ng-content>'
-})
-export class TabsListComponent{
-  @ContentChildren(TapComponent) tabs;
-}
-```
+            Save</button>`
+   #### Q16 What is the purpose of contentchildren decorator in the following component class?
+     ```javascript
+        @Component({
+          .....
+          template : '<ng-content></ng-content>'
+        })
+        export class TabsListComponent{
+          @ContentChildren(TapComponent) tabs;
+        }
+    ```
 - [ ] `It provides access within component class to any TabComponent components that were content projected into the <ng-content> for this component.`
 - [ ] `It restricts the allowed elements`
 - [ ] `It create TabComponent components in TabListComponent when TabListComponent is instantiated `
-- [ ] `If any Tabs Component element are added to TabListCpmponent template, they will get put into the <ng-content> element at runtime`    
+- [ ] `If any Tabs Component element are added to TabListCpmponent template, they will get put into the <ng-content> element at runtime` 
+#### Q17 What is the correct syntax for route definition to lazy load feature module?
+- [ ] 
+`
+        ````html
+        {
+            path:'users'
+            lazy:'./users/usersmodule#UsersModule'
+        }
+        ````
+`
+- [ ] 
+ `
+         ````html
+        {
+            path:'users'
+            childModule:'./users/usersmodule#UsersModule'
+        }
+        ````
+`
+- [ ] 
+`
+
+         ````html
+        {
+            path:'users'
+            module:'./users/usersmodule#UsersModule'
+        }
+        ````
+
+`
+- [ ] 
+`
+
+         ````html
+        {
+            path:'users'
+            loadChildren:'./users/usersmodule#UsersModule'
+        }
+        ````
+
+`
+#### Q18 which choice best describe the following usage of httpClient.get() method in the getSettings class method?
+````javascript
+export class GetSettingsServise{
+    constructor(private httpClient:HTTPClient){}
+    ...
+    getSeettings(){
+        return this.httpClient.get<Settings>(settingsUrl)
+        .pipe(
+            retry(3);
+            )}}
+````
+- [ ] `The Rxjs pipe method is being used to configure the HTTPClient.get observable stream to send through the retry operator.When the getSettings method is subscribed to , the get call will  be made and if it fails , it will be retried up to 3 times before it gives up and returns error.`
+- [ ] `The RXJS pipe method is an alias for subscribe method so a call to getSettings will excute the getquery.The retry operator is used to tell pipe call to retry getqyery 3 times.`
+- [ ] `Every single call to the getSettings will result in the Httpclient making its 3 total get request to settingUrl which is not ideal because there will be always 2 extra call `
+- [ ] `it will produce an error at runtime because the pipe method is not available off of the HTTPClient.get call`
+#### Q19 what does the following code accomplish?
+````javascript
+@NgModule({
+  declrations:[AppComponent]
+  imports:[BrowserModule]
+  bootstrap:[AppComponent]
+})
+export class AppModule{}
+platformBrowserDynamic().bootstrapModule(AppModule)
+````
+
+- [ ] `It provides a way to code the document structure of an angular application .The @NgModule is a form of inline code commenting that gets ignored by typescript compiler but show up with special formatting in code editors applications `
+- [ ] `It declares an angular module named appmodule and makes it available for lazy loading through out the application`
+- [ ] `It excutes unit test for @NgModule`
+- [ ] `It declares module named appmodule that contains a bootstraped component called AppComponent then registers that module with angular so the app can start up`
+
+#### Q20 While complex logic can be done in a component constructor it is recommended to perform those in which of the following lif ecycle hook?
+- [ ] `ngOnDestroy`
+- [ ] `ngAfter contentInit`
+- [ ] `ngAfterViewInit`
+- [ ] `ngOnInit`
+
+#### Q21 How would you define a route definition for a UserDetailComponent that support the url path user/23(where 23 represent user id )?
+- [ ] `{path:'user/23' , component:UserDetailComponent}`
+- [ ] `{destination:new UserDetailComponent() , component:UserDetailComponent}`
+- [ ] `{url:'user/23' routedComponent :UserDetailComponent}`
+- [ ] `{routePath:'user/23' component:UserDetailComponent}`
+
+#### Q22 Pick the best description for how the validation is set up for this reactive forms example?
+- [ ] The formcontrol is getting configured to excute 3 validators from the validators that are allowed to use.
+- [ ] validation can not be set up this way in reactive forms.
+- [ ] The formcontrol for username is getting configured with 3 validators , the required and min length validators that come from Angular and a custom validator function named unique that checks for the value not equal for string admin.
+- [ ] 
+
+#### Q23 What is the expected DOM code for the following usage og ngClass attribute directive when isActive is true?
+<div [ngClass]={'active-item':isActive}>Item One</div>
+- [ ] `<div class="active-item isActive">Item One</div>`
+- [ ] `<div class="active-item">Item One</div>`
+- [ ] `<div active-item>Item One</div>`
+- [ ] `<div class="active-item isActive">Item One</div>`
+
+#### Q24 In order for Angular to process components in an application?Where do the component types need to be registered?
+- [ ] `No registration is needed simply include component files in app directory`
+- [ ] `in an NgMOdule  decorator metadata property named declarations`
+- [ ] `within script tag in the index.html file`
+- [ ] `in an NgMOdule  decorator metadata tag named components`
+
+#### Q25 What is the difference between paramMap and queryParamMap on the ActivatedRouteClass?
+- [ ] `paramName is the legacy name from Angular3.The new name is queryParamName.`
+- [ ] `The paramMap is an object literal of the parameters in a route's url path.The query`
+
+
+
+
+
+
+
