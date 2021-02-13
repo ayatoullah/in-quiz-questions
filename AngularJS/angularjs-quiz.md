@@ -84,13 +84,11 @@
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?What is the correct template syntax for using the built-in null structural directive to render out a list of null?
 
-    - []  ````html
-           <ul>
+    - []  `<ul>
             <li [ngFor]="let productName of productNames">
                 {{ productName }}
             </li>
-           </ul> 
-           ````
+           </ul> `
  
 
     - []  `<ul>
