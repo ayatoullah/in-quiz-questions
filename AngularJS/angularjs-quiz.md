@@ -48,7 +48,7 @@
 
 #### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
 
-```
+```javascript
     export class OrderService {
     constructor(private httpClient: HttpClient) { }
 
@@ -71,7 +71,7 @@
 
 #### Q7. Which DOM elements will this component metadata selector match on?
 
-```
+```javascript
     @Component({
     selector: 'app-user-card',
     . . .
@@ -84,19 +84,22 @@
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?What is the correct template syntax for using the built-in null structural directive to render out a list of null?
 
-    - []  <ul>
-        <li [ngFor]="let productName of productNames">
-            {{ productName }}
-        </li>
-        </ul>
+    - []  ````html
+           <ul>
+            <li [ngFor]="let productName of productNames">
+                {{ productName }}
+            </li>
+           </ul> 
+           ````
+ 
 
-    - []  <ul>
+    - []  `<ul>
         <li ngFor="let productName of productNames">
             {{ productName }}
         </li>
-        </ul>
+        </ul>`
 
-    - []  <ul>
+    - []  `<ul>
         <li *ngFor="let productName of productNames">
             {{ productName }}
         </li>
