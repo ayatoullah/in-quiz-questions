@@ -2,7 +2,7 @@
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 
-```
+```javascript
     @Component({
     . . .
     template: '<p #bio></p>'
@@ -32,7 +32,7 @@
 
 #### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
-```
+```html
     <h2>Names</h2>
     <div *ngFor="let user of users | async">{{ user.name }}</div>
     <h2>Ages</h2>
