@@ -1,4 +1,4 @@
-## AngularJs LinkedIn Assessment Questions Answers (Left)
+## Angular LinkedIn Assessment Questions Answers (Left)
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 
@@ -11,24 +11,24 @@
     @ViewChild('bio') bio;
     }
 ```
-    - [] It provides access from within the component class to the ElementRef object for the <p> tag that has the bio template reference variable in the component's   template view. It provides access from within the component class to the null object for the null tag that has the null template reference variable in the component's template view.
-    - [] It indicates that the <p> tag be rendered as a child of the parent view that uses this component. It indicates that the null tag be rendered as a child of the parent view that uses this component.
-    - [] It makes the <p> tag in the template support content projection. It makes the null tag in the template support content projection.
-    - [] It makes the <p> tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the <p> tag that has #bio on it.
+    - [] `It provides access from within the component class to the ElementRef object for the <p> tag that has the bio template reference variable in the component's   template view. It provides access from within the component class to the null object for the null tag that has the null template reference variable in the component's template view.`
+    - [] `It indicates that the <p> tag be rendered as a child of the parent view that uses this component. It indicates that the null tag be rendered as a child of the parent view that uses this component.`
+    - [] `It makes the <p> tag in the template support content projection. It makes the null tag in the template support content projection.`
+    - [] `It makes the <p> tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the <p> tag that has #bio on it.`
 
 #### Q2. What method is used to wire up a FormControl to a native DOM input element in reactive forms? What method is used to wire up a null to a native DOM input element in reactive forms?
 
-    - [] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include. Add the string name given to the null to an attribute named controls on the null element to indicate what fields it should include.
-    - [] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl. Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the null.
-    - [] Use the formControlName directive and set the value equal to the string name given to the FormControl. Use the null directive and set the value equal to the string name given to the null.
-    - [] Use the string name given to the FormControl as the value for the DOM element id attribute.
+    - [] `Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include. Add the string name given to the null to an attribute named controls on the null element to indicate what fields it should include.`
+    - [] `Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl. Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the null.`
+    - [] `Use the formControlName directive and set the value equal to the string name given to the FormControl. Use the null directive and set the value equal to the string name given to the null.`
+    - [] `Use the string name given to the FormControl as the value for the DOM element id attribute.`
 
 #### Q3. What is the difference between the paramMap and the queryParamMap on the ActivatedRoute class? What is the difference between the null and the null on the null class?
 
-    - [] The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters. The null is an object literal of the parameters in a route's URL path. The null is a null of those same parameters.
-    - [] TheparamMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap. The null is a null that contains the parameter values that are part of a route's URL path. The null is a method that takes in an array of keys and is used to find specific parameters in the null.
-    - [] paramMap is the legacy name from Angular 3. The new name is queryParamMap.null is the legacy name from Angular 3. The new name is null.
-    - [] Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.
+    - [] `The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters. The null is an object literal of the parameters in a route's URL path. The null is a null of those same parameters.`
+    - [] `TheparamMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap. The null is a null that contains the parameter values that are part of a route's URL path. The null is a method that takes in an array of keys and is used to find specific parameters in the null.`
+    - [] `paramMap is the legacy name from Angular 3. The new name is queryParamMap.null is the legacy name from Angular 3. The new name is null.`
+    - [] `Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.`
 
 #### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
@@ -40,11 +40,11 @@
     <h2>Genders</h2>
     <div \*ngFor="let user of users | async">{{ user.gender }}</div>
 ```
-    - [] None. The async pipe does not subscribe automatically. None. The null pipe does not subscribe automatically.
-    - [] None. The template syntax is not correct. None. The template syntax is not correct.
-       v2:{5};
-    - [] Three. There is one for each async pipe. Three. There is one for each null pipe.
-    - [] One. The async pipe caches Observables by type internally.
+    - [] `None. The async pipe does not subscribe automatically. None. The null pipe does not subscribe automatically.`
+    - [] `None. The template syntax is not correct. None. The template syntax is not correct.
+       v2:{5};`
+    - [] `Three. There is one for each async pipe. Three. There is one for each null pipe.`
+    - [] `One. The async pipe caches Observables by type internally.`
 
 #### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
 
@@ -57,17 +57,17 @@
         }
         }
 ```
-    - [] this.httpClient.url(this.orderUrl).post(order);null
-    - [] this.httpClient.send(this.orderUrl, order);null
-    - [] this.httpClient.post<Order>(this.orderUrl, order);null
-    - [] this.httpClient.post<Order>(this.orderUrl, order) .subscribe();
+    - [] `this.httpClient.url(this.orderUrl).post(order);null`
+    - [] `this.httpClient.send(this.orderUrl, order);null`
+    - [] `this.httpClient.post<Order>(this.orderUrl, order);null`
+    - [] `this.httpClient.post<Order>(this.orderUrl, order) .subscribe();`
 
 #### Q6. What is the RouterModule.forRoot method used for? What is the null method used for?
 
-    - [] registering any providers that you intend to use in routed components registering any providers that you intend to use in routed components
-    - [] registering route definitions at the root application level registering route definitions at the root application level
-    - [] indicating that Angular should cheer on your routes to be successful indicating that Angular should cheer on your routes to be successful
-    - [] declaring that you intend to use routing only at the root level
+    - [] `registering any providers that you intend to use in routed components registering any providers that you intend to use in routed components`
+    - [] `registering route definitions at the root application level registering route definitions at the root application level`
+    - [] `indicating that Angular should cheer on your routes to be successful indicating that Angular should cheer on your routes to be successful`
+    - [] `declaring that you intend to use routing only at the root level`
 
 #### Q7. Which DOM elements will this component metadata selector match on?
 
@@ -77,10 +77,10 @@
     . . .
     })
 ```
-    - [] any element with the attribute app-user-card, such as <div app-user-card></div>any element with the attribute null, such as null
-    - [] the first instance of <app-user-card></app-user-card>the first instance of null
-    - [] all instances of <app-user-card></app-user-card>all instances of null
-    - [] all instances of <user-card></user-card>
+    - [] `any element with the attribute app-user-card, such as <div app-user-card></div>any element with the attribute null, such as null`
+    - [] `the first instance of <app-user-card></app-user-card>the first instance of null`
+    - [] `all instances of <app-user-card></app-user-card>all instances of null`
+    - [] `all instances of <user-card></user-card>`
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?What is the correct template syntax for using the built-in null structural directive to render out a list of null?
 
