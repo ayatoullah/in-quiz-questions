@@ -349,7 +349,36 @@ export class DataService
 - [ ] `It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.`
 - [ ] `It registers a provider for the service in the root application injector making a single instance of it available throughout the application`
 
-#### Q28 
+#### Q28 NgModules can be within NgModules Which code sample should be used to include TabModule in sharedmodule?
+- [ ] 
+`
+@NgMoudle({
+    exports:[TableModule]
+})
+export class SharedModule;
+`
+- [ ] 
+`
+@NgMoudle({
+    providers:[TableModule]
+})
+export class SharedModule;
+
+`
+- [ ] 
+`
+@NgMoudle({
+    declarations:[TableModule]
+})
+export class SharedModule;
+
+- [ ] 
+`
+@NgMoudle({
+    imports:[TableModule]
+})
+export class SharedModule;
+
 
 
 
