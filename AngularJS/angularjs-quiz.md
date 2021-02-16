@@ -352,32 +352,41 @@ export class DataService
 #### Q28 NgModules can be within NgModules Which code sample should be used to include TabModule in sharedmodule?
 - [ ] 
 `
+````javascript
 @NgMoudle({
     exports:[TableModule]
 })
 export class SharedModule;
+````
 `
 - [ ] 
 `
+````javascript
 @NgMoudle({
     providers:[TableModule]
 })
 export class SharedModule;
-
+````
 `
 - [ ] 
 `
+````javascript
 @NgMoudle({
     declarations:[TableModule]
 })
 export class SharedModule;
+````
+`
 
 - [ ] 
 `
+````javascript
 @NgMoudle({
     imports:[TableModule]
 })
 export class SharedModule;
+````
+`
 
 
 
