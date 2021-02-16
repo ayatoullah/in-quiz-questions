@@ -349,6 +349,8 @@ export class DataService
 - [ ] `It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.`
 - [ ] `It registers a provider for the service in the root application injector making a single instance of it available throughout the application`
 
+#### Q28 
+
 
 
 
