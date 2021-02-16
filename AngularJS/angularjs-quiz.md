@@ -62,7 +62,7 @@
     - [] `this.httpClient.post<Order>(this.orderUrl, order);null`
     - [] `this.httpClient.post<Order>(this.orderUrl, order) .subscribe();`
 
-#### Q6. What is the RouterModule.forRoot method used for? What is the null method used for?
+#### Q6. What is the RouterModule.forRoot method used for? 
 
     - [] `registering any providers that you intend to use in routed components registering any providers that you intend to use in routed components`
     - [] `registering route definitions at the root application level registering route definitions at the root application level`
