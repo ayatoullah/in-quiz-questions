@@ -77,8 +77,8 @@
     . . .
     })
 ```
-    - [] `any element with the attribute app-user-card, such as <div app-user-card></div>any element with the attribute null, such as null`
-    - [] `the first instance of <app-user-card></app-user-card>the first instance of null`
+    - [] `any element with the attribute app-user-card, such as <div app-user-card></div>
+    - [] `the first instance of <app-user-card></app-user-card>
     - [] `all instances of <app-user-card></app-user-card>all instances of null`
     - [] `all instances of <user-card></user-card>`
 
